@@ -8,4 +8,4 @@ var builder = Host.CreateApplicationBuilder();
 builder.Services.AddDemoServices();
 using var app = builder.Build();
 var rendererService = app.Services.GetRequiredService<IRendererService>();
-_ = await rendererService.GenerateDocxDocumentAsPDFAsync();
+await rendererService.GenerateDocxDocumentAsPDFAsync();
