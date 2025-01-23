@@ -23,6 +23,7 @@ public class DocxService : IDocxService
         {
             Text = "This is a \"quick\" demo made on January 23 2025 at 11:19 am\nRight the current execution date is "+DateTime.Now.ToString("MM/dd/yyyy hh:mm t")
         });
+        paragraph.AppendChild(run);
         body.AppendChild(paragraph);
         document.AppendChild(body);
         
