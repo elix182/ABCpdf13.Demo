@@ -19,10 +19,17 @@ public class DocxService : IDocxService
 
         var body = new Body();
         var paragraph = new Paragraph();
-        var run = new Run(new Text()
-        {
-            Text = "This is a \"quick\" demo made on January 23 2025 at 11:19 am\nRight the current execution date is "+DateTime.Now.ToString("MM/dd/yyyy hh:mm t")
-        });
+        var run = new Run(
+            new Text()
+            {
+                Text = "This is a \"quick\" demo made on January 23 2025 at 11:19 am."
+            },
+            new Break(),
+            new Break(),
+            new Text(){
+                Text = "Right now the current execution date is "+DateTime.Now.ToString("MM/dd/yyyy hh:mm tt")+"."
+            }
+        );
         paragraph.AppendChild(run);
         body.AppendChild(paragraph);
         document.AppendChild(body);
