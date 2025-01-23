@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCpdf13.Demo", "ABCpdf13.Demo\ABCpdf13.Demo.csproj", "{9EA4EE45-7269-4F0C-A583-0636BC7E2DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCpdf13.Demo.Renderer", "ABCpdf13.Demo.Renderer\ABCpdf13.Demo.Renderer.csproj", "{16A1A600-A19A-4E7D-92B1-6E8009603699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCpdf13.Demo.Docx", "ABCpdf13.Demo.Docx\ABCpdf13.Demo.Docx.csproj", "{29E06C77-A0B2-4EFA-8014-8A01A593372D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCpdf13.Demo.Pdf", "ABCpdf13.Demo.Pdf\ABCpdf13.Demo.Pdf.csproj", "{FD807AE1-2373-499F-8A38-D002DAEE8960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCpdf13.Demo.Common", "ABCpdf13.Demo.Common\ABCpdf13.Demo.Common.csproj", "{382461BC-12AF-4DCE-B9BB-5E7D86EEA35F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EA4EE45-7269-4F0C-A583-0636BC7E2DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA4EE45-7269-4F0C-A583-0636BC7E2DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA4EE45-7269-4F0C-A583-0636BC7E2DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA4EE45-7269-4F0C-A583-0636BC7E2DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A1A600-A19A-4E7D-92B1-6E8009603699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A1A600-A19A-4E7D-92B1-6E8009603699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A1A600-A19A-4E7D-92B1-6E8009603699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A1A600-A19A-4E7D-92B1-6E8009603699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E06C77-A0B2-4EFA-8014-8A01A593372D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E06C77-A0B2-4EFA-8014-8A01A593372D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E06C77-A0B2-4EFA-8014-8A01A593372D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E06C77-A0B2-4EFA-8014-8A01A593372D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD807AE1-2373-499F-8A38-D002DAEE8960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD807AE1-2373-499F-8A38-D002DAEE8960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD807AE1-2373-499F-8A38-D002DAEE8960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD807AE1-2373-499F-8A38-D002DAEE8960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382461BC-12AF-4DCE-B9BB-5E7D86EEA35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382461BC-12AF-4DCE-B9BB-5E7D86EEA35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382461BC-12AF-4DCE-B9BB-5E7D86EEA35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382461BC-12AF-4DCE-B9BB-5E7D86EEA35F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

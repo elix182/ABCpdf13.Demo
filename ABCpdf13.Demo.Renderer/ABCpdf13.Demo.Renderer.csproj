@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ABCpdf13.Demo.Docx\ABCpdf13.Demo.Docx.csproj" />
+    <ProjectReference Include="..\ABCpdf13.Demo.Pdf\ABCpdf13.Demo.Pdf.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
